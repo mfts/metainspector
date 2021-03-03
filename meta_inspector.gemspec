@@ -14,14 +14,14 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = MetaInspector::VERSION
 
-  gem.add_dependency 'nokogiri', '~> 1.11.0'
-  gem.add_dependency 'faraday', '~> 1.1.0'
+  gem.add_dependency 'nokogiri', '~> 1.11.1'
+  gem.add_dependency 'faraday', '~> 1.3.0'
   gem.add_dependency 'faraday_middleware', '~> 1.0.0'
   gem.add_dependency 'faraday-cookie_jar', '~> 0.0.7'
   gem.add_dependency 'faraday-http-cache', '~> 2.2.0'
   gem.add_dependency 'faraday-encoding', '~> 0.0.5'
   gem.add_dependency 'addressable', '~> 2.7.0'
-  gem.add_dependency 'fastimage', '~> 2.1.7'
+  gem.add_dependency 'fastimage', '~> 2.2.3'
   gem.add_dependency 'nesty', '~> 1.0.2'
 
   gem.add_development_dependency 'rspec', '~> 3.9.0'
